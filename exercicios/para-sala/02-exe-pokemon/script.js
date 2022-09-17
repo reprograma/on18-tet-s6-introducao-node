@@ -31,5 +31,7 @@ const data = [
 }]
 
 // COMEÇA O EXERCÍCIO
-
-
+for (pokemon in data) {
+    console.log(`${data[pokemon]["name"]} \n ${data[pokemon]["description"]} \n ${data[pokemon]["art_url"]} \n ${data[pokemon]}
+    `)
+}
