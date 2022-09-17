@@ -32,4 +32,21 @@ const data = [
 
 // COMEÇA O EXERCÍCIO
 
-
+for(x of data){
+    console.log('%c ########################################', 'color: #000000');
+    console.log("%c Name: "+x.name, 'color: #fde893');
+    console.log('%c ##################################-#####', 'color: #000000');
+    console.log("%c Description: "+x.description, 'color: #ffffff');
+    console.log("%c ###########################################", 'color: #000000');
+    console.log("%c Art Url: "+x.art_url, 'color: #0a52fa');
+    console.log("%c ###########################################", 'color: #000000');
+    let typeList = x.types;
+    for(y of typeList){
+        console.log('%c ----------------------------------------', 'color: #000000');
+        console.log("%c Type: "+y, 'color: #fa7aaa');
+        console.log('%c ========================================', 'color: #000000');
+    }
+    console.log("%c *******************************************", 'color: #000000');
+    console.log("%c -------------------------------------------", 'color: #000000');
+    console.log("%c ___________________________________________", 'color: #000000');
+  }

@@ -25,7 +25,15 @@ const jsonDeFilmes = [
 
 // COMEÇA O EXERCÍCIO
 
-
+for(x of jsonDeFilmes){
+  console.log('%c ########################################', 'color: #ff6000');
+  console.log("%c Title: "+x.title, 'color: #fde893');
+  console.log('%c ##################################-#####', 'color: #98fb04');
+  console.log("%c Description: "+x.description, 'color: #ffffff');
+  console.log("###########################################");
+  console.log("-------------------------------------------");
+  console.log("___________________________________________");
+}
 
 
   
