@@ -77,3 +77,19 @@ const obj = [
 ]
 
 //SUA RESPOSTA AQUI
+
+for (let filmes =0; filmes <obj.length; filmes++){
+    let filme= obj[filmes]
+
+    console.log(filme.Title)
+    
+    console.log(filme.Year)
+  
+    
+    console.log(filme.Genre.split(" ").join("\n"))
+    console.log ("______________________")
+   
+   
+    }
+
+   

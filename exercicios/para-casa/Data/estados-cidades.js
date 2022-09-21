@@ -5732,3 +5732,32 @@ const estados = [
         ]
       }
     ]
+    for (let i = 0; i < estados.length; i++){
+      let siglaPorEstado = estados[i]
+      console.log(siglaPorEstado.sigla) 
+
+     let cidadePorSigla = siglaPorEstado.cidades
+
+      for (let j = 0; j < cidadePorSigla.length; j++){
+        console.log(cidadePorSigla[j])
+      } 
+    }
+
+
+
+
+   
+function searchCidades(lista, uf) {
+  for (let i = 0; i < lista.length; i++) {
+    let siglaPorEstado = lista[i];
+    if (siglaPorEstado.sigla.toUpperCase() === uf.toUpperCase()) {
+      let searchCidades = siglaPorEstado.cidades.join('\n');
+      console.log(`Segue a lista de cidades do(a) ${uf}:`);
+      console.table(`${searchCidades}`);
+    }
+  }
+}
+
+searchCidades(estados, "to");
+
+
