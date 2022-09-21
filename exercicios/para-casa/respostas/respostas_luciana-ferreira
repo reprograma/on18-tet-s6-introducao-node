@@ -1,0 +1,31 @@
+1) qual nivel de maturidade corresponde ao CRUD (Create, Read, Update, Delete)?
+
+CREATE: operação utilizada para criar/registrar informações em determinado lugar, podendo ser um banco de dados ou até numa simples lista de informações. 
+
+READ: operação responsável pela consulta de dados.
+
+UPDATE: operação que trabalha na atualização de informações. 
+
+DELETE: operador que permite a deleção de dados. Esta operação é significativamente menos utilizada por desenvolvedores em relação as outras, isso porque é ela quem permite a exclusão total de informações que estão armazenadas em determinado local. 
+
+2) qual a relação entre os metodos HTTP e o CRUD?
+
+ Os "HTTP" estão ligados com o CRUD: Create -> POST. Read -> GET. Update -> PUT / PATCH.
+
+3) o que é HATEOAS? Ele é obrigatório para que uma API seja considerada RESTfull?
+
+HATEOAS é um componente que faz parte da arquitetura REST, cujo objetivo é ajudar os clientes a consumirem uma API sem a necessidade de conhecimento prévio. Não é obrigatório.
+
+
+4) O que quer dizer quando dizemos que uma API é indepotente?
+
+A idempotência garante que uma solicitação de API seja concluída apenas uma vez. Com uma solicitação idempotente, se a solicitação original for concluída com êxito, as novas tentativas subsequentes retornam o resultado da solicitação original bem-sucedida e não terão efeito adicional.
+
+
+5) Qual a diferença entre os métodos PUT e PATCH?
+
+PUT: Quando uma requisição é feita para um recurso modificá-lo. 
+Este método  irá mudar todo os dados do recurso, caso tal recurso não exista, é possível criá-lo através dessa única requisição.
+
+PATCH: É utilizado para alterar alguns dados de um recurso. 
+Direfente do put ele não cria recursos.
