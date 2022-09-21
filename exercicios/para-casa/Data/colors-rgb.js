@@ -149,3 +149,12 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+function searchRGB() {
+    let getInfoCores = Object.values(obj[0])
+    let getInfoPropriedades = Object.keys(obj[0])
+
+    for (let cor = 0; cor < getInfoPropriedades.length; cor++) {
+        console.log(`${getInfoPropriedades[cor]} RGB: ${getInfoCores[cor]}`)
+    }
+}
+searchRGB();
