@@ -168,10 +168,10 @@ const filtrandoKey=(obj,key)=>{
     }
 
   
-    console.log(`${primeiro} RGB: ${mapeando}`)
+    console.log(`${primeiro} RGB: ${mapeando}`);
 }
 
-filtrandoKey(obj,key1)
+filtrandoKey(obj,key1);
 
 
 
