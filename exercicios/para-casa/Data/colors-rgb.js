@@ -149,3 +149,25 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+
+function color (){     
+    let result = 0;
+    
+    for (let i = 0; i < obj.length; i ++){  
+        let cores = obj[i] 
+
+        let cor = cores.aliceblue
+       result = cor.join(", ")
+       console.log( " aliceblue RGB: " + result)
+
+        //console.log( "aliceblue RGB:" + cor.toString()) //                           
+
+        
+    }
+    
+   
+}
+
+color()
+

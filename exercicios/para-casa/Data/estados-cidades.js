@@ -5732,3 +5732,13 @@ const estados = [
         ]
       }
     ]
+
+    function listaDeCidades(silg){
+      for(let i = 0; i < estados.length; i ++ ){
+        let siglaEstado = estados[i].sigla
+        if( silg.toUpperCase() == siglaEstado)
+          console.log(estados[i].cidades)
+      }
+
+    }
+    listaDeCidades("ba")
