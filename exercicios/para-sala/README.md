@@ -1,7 +1,7 @@
 # Exercício de Sala 🏫  
 
 ## 01 - exe ghibli
-No qrquivo script.js, apresente no console cada um dos atributos desse JS
+No arquivo script.js, apresente no console cada um dos atributos desse JS
 
 ## 02 - exe pokemon
 No arquivo script.js, apresente no console todos os dados dos pokemons
