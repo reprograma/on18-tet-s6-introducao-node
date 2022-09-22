@@ -5732,3 +5732,13 @@ const estados = [
         ]
       }
     ]
+
+    function pesquisaPorSigla(sigla) {
+      for (let buscaSigla of estados) {
+          let procurarSigla = estados.filter((buscaSigla) => buscaSigla.sigla.toUpperCase().includes(sigla.toUpperCase())); {
+          }
+          console.log(procurarSigla)
+          break;
+      }
+    }
+    pesquisaPorSigla('pB')

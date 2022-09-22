@@ -149,3 +149,12 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//7) Do arquivo colors-rgb retorne no terminal o RGB como no exemplo: "aliceblue RGB: 240, 248, 255, 1"
+ 
+for(let i = 0; i < obj.length; i++){
+  let dadoObj = obj[i];
+  console.log('snow RGB', dadoObj.snow.join(','));
+  }
+
+
