@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+for (i=0;i<obj.length;i++){
+    let filme = obj[i];
+    genero = filme.Genre.split(" ")
+
+    console.log(filme.Title)
+    console.log(filme.Year)
+    
+    for (j=0;j<genero.length;j++){
+        console.log(genero[j])
+    }
+}

@@ -25,9 +25,6 @@ const jsonDeFilmes = [
 
 // COMEÇA O EXERCÍCIO
 
-
-
-
-  
-
-  
+for (let i=0; i<jsonDeFilmes.length; i++){
+  console.log(Object.values(jsonDeFilmes[i]))
+}

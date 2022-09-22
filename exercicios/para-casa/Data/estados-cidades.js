@@ -5732,3 +5732,14 @@ const estados = [
         ]
       }
     ]
+//sigla, nome, cidades
+function Pesquisa(inserir){
+  for (i=0;i<estados.length;i++){
+    if (estados[i].sigla.toUpperCase()==inserir.toUpperCase()){
+      console.log("Estado: "+estados[i].nome)
+      console.log(estados[i].cidades)
+      break
+    }
+  }
+}
+Pesquisa("ce")

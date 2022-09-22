@@ -149,3 +149,8 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+for(cor in obj[0]){
+    listaCores = obj[0];
+    console.log(`${cor} RGB: ${Object.values(listaCores[cor])}`)
+}
