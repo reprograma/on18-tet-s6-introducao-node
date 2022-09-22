@@ -32,4 +32,14 @@ const data = [
 
 // COMEÇA O EXERCÍCIO
 
-
+function percorrerJson(json){
+    for (index in json){
+    console.log(json[index].name)
+    console.log(json[index].description)
+    console.log(json[index].art_url)
+     for (let i=0; i<json[index].types.length;i++){
+        console.log(json[index].types[i])}
+    console.log("----------")
+  }}
+  
+  percorrerJson(data)

@@ -5732,3 +5732,19 @@ const estados = [
         ]
       }
     ]
+
+    //dado uma sigla retorne no terminal o lista de cidades
+    //json = estados
+    //keys: sigla, nome, cidades
+
+    
+/*function retornaCidades(json, estado){
+  let indexEstado = json.indexOf(estado)
+  console.log(indexEstado)}
+  retornaCidades(estados,"AC")*/
+
+  //eu... não consigo
+  //tentei de tudo e não consegui fazer ele sequer localizar o nome do estado no JSON
+  //só age como se indexOf não existisse, find não funciona, index mesmo que
+  //funcione pode dar falso positivo
+  //eu estou fazendo algo horrivelmente errado

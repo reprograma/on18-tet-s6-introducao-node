@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+function retornarFilmes (json){
+    for (let index in json){
+        console.log(json[index].Title)
+        console.log(json[index].Year)
+        let genreArray = json[index].Genre.split(", ")
+        for (let i=0;i<genreArray.length;i++)
+        console.log(genreArray[i])
+        console.log("====================")
+    }
+}
+
+retornarFilmes(obj)

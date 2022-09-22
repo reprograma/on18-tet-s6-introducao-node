@@ -23,9 +23,14 @@ const jsonDeFilmes = [
      }
     ]
 
-// COMEÇA O EXERCÍCIO
+function percorrerJson(json){
+  for (index in json){
+  console.log(json[index].title)
+  console.log(json[index].description)
+  console.log("----------")
+}}
 
-
+percorrerJson(jsonDeFilmes)
 
 
   

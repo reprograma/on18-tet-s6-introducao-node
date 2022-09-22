@@ -149,3 +149,16 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+//  aliceblue RGB: 240, 248, 255, 1
+
+function retornarRgb (json){
+    for (index in json) {
+        let keys = Object.keys(json[index])
+        let values = Object.values(json[index])
+        for (let i=0; i<keys.length;i++){
+        console.log(keys[i] + ": " + values[i])}
+    }
+
+}
+
+retornarRgb(obj)
