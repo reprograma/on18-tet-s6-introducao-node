@@ -1,0 +1,14 @@
+1) qual nivel de maturidade corresponde ao CRUD (Create, Read, Update, Delete)
+- O CRUD apresenta o nivel de maturidade 2, que é quando a API encontra-se mais organizada para aceitar, devolver e atualizar dados.
+
+2) qual a relação entre os metodos HTTP e o CRUD?
+- Entendo o HTTP como um tradutor de comando do CRUD, facilitando as ações entre API e servidor.
+
+3) o que é HATEOAS? Ele é obrigatório para que uma API seja considerada RESTfull?
+- São arquivos linkados com outros arquivos, com o objtivo de faciliar a interação do cliente.
+
+4) O que quer dizer quando dizemos que uma API é indepotente?
+- Entendi que necessita de apenas uma solicitação do usuario e assim a etapas subsquentes se confirmam.
+
+5) Qual a diferença entre os métodos PUT e PATCH?
+- Put promove modificações completas e patch modificações parciais
