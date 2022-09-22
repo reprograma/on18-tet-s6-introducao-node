@@ -33,3 +33,6 @@ const data = [
 // COMEÇA O EXERCÍCIO
 
 
+for(let i = 0; i < data.length; i++) {
+    let = pokemom = data[i]
+}
