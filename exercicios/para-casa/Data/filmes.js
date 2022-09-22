@@ -79,10 +79,9 @@ const obje = [
 //SUA RESPOSTA AQUI
 for(let i = 0; i < obje.length; i++ ){
     let filme = obje[i]
-    console.log(filme.Title ,"\n")
-    console.log(filme.Year,"\n")
-    console.log(filme.Genre,"\n")
+    console.log(filme.Title)
+    console.log(filme.Year)
+    console.log(filme.Genre) //metodo de string   
+
     console.log("<---------------->")
   }
-  
-  
