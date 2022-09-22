@@ -5732,3 +5732,14 @@ const estados = [
         ]
       }
     ]
+
+    function filtrarPorSigla(sigla) {
+
+      if (typeof (sigla) == "string") {
+        sigla = sigla.toUpperCase()
+        let filtrarCidade = estados.filter((cidades) => cidades.sigla.includes(sigla));
+        console.log(filtrarCidade)
+      }
+    }
+    
+    filtrarPorSigla("sp")
