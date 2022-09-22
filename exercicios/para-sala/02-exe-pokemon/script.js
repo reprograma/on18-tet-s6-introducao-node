@@ -31,7 +31,26 @@ const data = [
 }]
 
 // COMEÇA O EXERCÍCIO
+larissa-araujo
 for (pokemon in data) {
     console.log(`${data[pokemon]["name"]} \n ${data[pokemon]["description"]} \n ${data[pokemon]["art_url"]} \n ${data[pokemon]}
     `)
+
+
+
+for(let i = 0; i < data.length; i++){
+    let pokemon = data[i]
+    console.log(pokemon.name)
+    console.log(pokemon.description)
+    console.log(pokemon.art_url)
+    //console.log(pokemon.types)
+    
+    let listaDeTipos = pokemon.types
+
+    for(let j=0; j < listaDeTipos.length; j++ ){
+        console.log(listaDeTipos[j])
+    }
+
+
+ main
 }

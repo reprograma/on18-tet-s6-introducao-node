@@ -76,6 +76,7 @@ const obj = [
     }
 ]
 
+larissa-araujo
 for(let i = 0; i < obj.length; i++){
     let filme = obj[i]
     console.log(filme.Title)
@@ -83,5 +84,6 @@ for(let i = 0; i < obj.length; i++){
     console.log(filme.Genre)
 
 }
+
 
 
