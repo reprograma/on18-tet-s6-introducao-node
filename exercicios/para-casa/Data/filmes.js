@@ -76,4 +76,19 @@ const obj = [
     }
 ]
 
-//SUA RESPOSTA AQUI
+// Do arquivo filmes.js retorne no terminal o Titulo, Ano e Genero. (desafio: apresente cada Genero em linhas separadas)
+
+for(i = 0; i < obj.length; i++){
+    let filmes = obj[i]
+
+    let movies = filmes.Genre.split(", ")
+
+    console.log('================================')
+    console.log("Título do filme: ", filmes.Title)
+    console.log("Ano: ",filmes.Year)
+    console.log('Gêneros:')
+
+    for(let lista in movies) {
+        console.log(`${movies[lista]}`)
+    }
+}
