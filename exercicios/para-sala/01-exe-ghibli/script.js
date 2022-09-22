@@ -11,7 +11,7 @@ const jsonDeFilmes = [
       },
       {
         "title": "My Neighbor Totoro",
-        "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her."
+        "description": "Two sisters move to the coeuntry with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her."
       },
       {
         "title": "Kiki's Delivery Service",
@@ -24,6 +24,11 @@ const jsonDeFilmes = [
     ]
 
 // COMEÇA O EXERCÍCIO
+
+for (filme in jsonDeFilmes){
+
+  console.log ('Titulo: ${filmes[filme]["titulo"]}')
+}
 
 
 
