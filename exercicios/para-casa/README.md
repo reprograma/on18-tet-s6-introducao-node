@@ -12,7 +12,7 @@ Pesquise sobre os niveis de maturidade de Richardsson e responda:
 7) Do arquivo colors-rgb retorne no terminal o RGB como no exemplo: "aliceblue RGB: 240, 248, 255, 1"
 8) Do arquivo estados-cidade dado uma sigla retorne no terminal o lista de cidades
 
-Respostas:
+Respostas Para Casa Teórico:
 
 1) * Nível de maturidade 2.
 
