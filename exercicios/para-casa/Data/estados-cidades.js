@@ -5732,3 +5732,21 @@ const estados = [
         ]
       }
     ]
+
+
+    function buscarCidade(nomeDoEstado){
+
+      if(typeof(nomeDoEstado) == "string"){
+        nomeDoEstado = nomeDoEstado.toUpperCase()
+        const encontrarEstados = estados.filter((item) => item.sigla.includes(nomeDoEstado));
+
+       for(item of encontrarEstados){
+        console.log(encontrarEstados[0].cidades)
+       }
+
+
+    }
+  }
+
+  buscarCidade("rj")
+  

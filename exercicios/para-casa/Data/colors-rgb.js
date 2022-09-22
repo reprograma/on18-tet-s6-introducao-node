@@ -149,3 +149,7 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+[13:36, 22/09/2022] +55 53 9901-9639: cores:
+[13:36, 22/09/2022] +55 53 9901-9639: const colors = obj.map((item) => Object.keys(item))[0];
+colors.map((color) => console.log(`${color} - RGB: (${obj[0][color]})`))
