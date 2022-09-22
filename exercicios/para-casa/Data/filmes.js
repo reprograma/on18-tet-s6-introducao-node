@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+obj.forEach(objeto =>{
+    let ano=objeto.Year
+    let titulo=objeto.Title
+    let genero=objeto.Genre
+
+
+    console.table(`Filme: ${ano}`)
+    console.table(`Título: ${titulo}`)
+    console.table(`Gênero: ${genero}`)
+    console.log('-------------------------------------')
+})

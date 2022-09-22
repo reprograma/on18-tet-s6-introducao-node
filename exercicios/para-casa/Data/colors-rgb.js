@@ -149,3 +149,33 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+const mapColors=obj.map(cor=>{
+    let mapeando=cor.aliceblue
+ 
+
+
+
+const key1='aliceblue'
+
+const filtrandoKey=(obj,key)=>{
+    
+   
+    const primeiro=key.split('.')[0]
+
+    if(obj[primeiro]){
+        return filtrandoKey(obj[primeiro], key.split('.').slice(1).join('.'))
+    }
+
+  
+    console.log(`${primeiro} RGB: ${mapeando}`)
+}
+
+filtrandoKey(obj,key1)
+
+
+
+})
+
+
+
