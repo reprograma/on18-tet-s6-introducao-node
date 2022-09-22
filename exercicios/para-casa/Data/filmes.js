@@ -77,3 +77,21 @@ const obj = [
 ]
 
 //SUA RESPOSTA AQUI
+
+for (let i = 0; i < obj.length; i++){
+    
+    let filme = obj[i]
+    let genero = new Array(filme.Genre)
+    let ano = new Array(filme.Year)
+
+    for (let i = 0; i < obj.length; i++){
+    
+        let filmes = obj[i]
+        let genero = new Array(filme.Genre)
+        let linguagem = new Array(filme.Language)
+    
+        console.log(filme.Title)
+        console.log(filme.Plot)
+        console.log (genero)
+        console.log(linguagem)
+    }}
