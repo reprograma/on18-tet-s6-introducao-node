@@ -5732,3 +5732,19 @@ const estados = [
         ]
       }
     ]
+
+// Do arquivo estados-cidade dado uma sigla retorne no terminal a lista de cidades
+
+function buscarCidade(nomeDoEstado){
+
+  if(typeof(nomeDoEstado) == "string"){
+    nomeDoEstado = nomeDoEstado.toUpperCase()
+    const encontrarEstados = estados.filter((item) => item.sigla.includes(nomeDoEstado));
+ 
+   for(item of encontrarEstados){
+    console.log(item.cidades) // ou console.log(encontrarEstados[0].cidades)
+   }
+ }
+}
+
+buscarCidade("al")
