@@ -31,6 +31,11 @@ const data = [
 }]
 
 // COMEÇA O EXERCÍCIO
+larissa-araujo
+for (pokemon in data) {
+    console.log(`${data[pokemon]["name"]} \n ${data[pokemon]["description"]} \n ${data[pokemon]["art_url"]} \n ${data[pokemon]}
+    `)
+
 
 
 for(let i = 0; i < data.length; i++){
@@ -47,4 +52,5 @@ for(let i = 0; i < data.length; i++){
     }
 
 
+ main
 }

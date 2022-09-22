@@ -76,4 +76,14 @@ const obj = [
     }
 ]
 
-//SUA RESPOSTA AQUI
+larissa-araujo
+for(let i = 0; i < obj.length; i++){
+    let filme = obj[i]
+    console.log(filme.Title)
+    console.log(filme.Year)
+    console.log(filme.Genre)
+
+}
+
+
+
