@@ -1,0 +1,16 @@
+1- CREATE: operação utilizada para criar/registrar informações em determinado lugar, podendo ser um banco de
+dados ou até numa simples lista de informações. Aqui vale o exemplo do registro de usuários em uma plataforma,
+ou até a criação de um novo post que será publicado em determinado blog. Estes e vários outros modelos de 
+criação utilizam o conceito de create.
+READ: operação responsável pela consulta de dados.
+UPDATE: operação que trabalha na atualização de informações , na programação, muitas funções que são responsáveis por atualizar algum banco de dados utilizam o conceito de update para fazê-lo.
+DELETE: operador que permite a deleção de dados.Esta operação é significativamente menos utilizada por desenvolvedores em relação as outras, isso porque é ela quem permite a exclusão total de informações que estão armazenadas em determinado local.
+
+2- HTTP são verbos ou métodos que vão indicar qual ação está sendo requisitada pelo consumidor do serviço, e o CRUD são os verbos propriamento ditos, creat, read, update e delete.
+
+3- HATEOAS é uma restrição que faz parte da arquitetura de aplicações REST, cujo objetivo é ajudar os clientes a consumirem o serviço sem a necessidade de conhecimento prévio profundo da API bastando ter a URL.o HATEOAS é considerado o último nível de uma API RESTful. Desta forma, caso esteja procurando definir uma API que siga o padrão RESTful, o HATEOAS deve ser implementado nela.
+
+4- A idempotência garante que uma solicitação de API seja concluída apenas uma vez. Com uma solicitação idempotente, se a solicitação original for concluída com êxito, as novas tentativas subsequentes retornam o resultado da solicitação original bem-sucedida e não terão efeito adicional.
+
+5- PUT: é quando faz uma requisição a um recurso para modificá-lo. Nesse método poderá mudar todo os dados do recurso, se caso esse recurso não exista, é possível criá-lo através dessa única requisição.
+PATCH: você usa quando vai alterar alguns dados de um recurso. Ele não pode criar um novo recurso como é feito no put.

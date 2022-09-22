@@ -32,4 +32,19 @@ const data = [
 
 // COMEÇA O EXERCÍCIO
 
+for (let i = 0; i < data.length; i++){
+    let dados = data[i];
+    console.log(dados.name);
+    console.log(dados.description);
+    console.log(dados.art_url);
+
+    let tipos = dados.types
+
+for (let j = 0; j < tipos.length; j++){
+    
+    console.log(tipos[j])
+ }
+}
+
+
 

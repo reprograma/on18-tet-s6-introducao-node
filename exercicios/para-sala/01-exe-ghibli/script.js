@@ -24,7 +24,17 @@ const jsonDeFilmes = [
     ]
 
 // COMEÇA O EXERCÍCIO
+/*
+for (let i = 0; i < jsonDeFilmes.length; i++){
+  let filmes = jsonDeFilmes[i];
+  console.log(filmes.title)
+  console.log(filmes.description)
+}*/
 
+for(let filmes in jsonDeFilmes){
+  console.log(jsonDeFilmes[filmes].title)
+  console.log(jsonDeFilmes[filmes].description)
+}
 
 
 
