@@ -5732,3 +5732,14 @@ const estados = [
         ]
       }
     ]
+
+
+    function filtrarCidades(sigla) {
+      for (let city of estados) {
+          let buscaSigla = estados.filter((city) => city.sigla.includes(sigla.toUpperCase()));{
+        }
+          console.log(buscaSigla);
+        }
+    }
+    
+      filtrarCidades("pi")
