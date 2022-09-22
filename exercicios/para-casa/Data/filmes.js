@@ -1,4 +1,4 @@
-const obj = [
+const filmes = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,8 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//Do arquivo filmes.js retorne no terminal o Titulo, Ano e Genero. (desafio: apresente cada Genero em linhas separadas)
+for (const filme of filmes) {
+    console.log(`Título: ${filme.Title}\nAno: ${filme.Year}\nGênero:\n${filme.Genre.split(',').join("\n")}\n`);
+}

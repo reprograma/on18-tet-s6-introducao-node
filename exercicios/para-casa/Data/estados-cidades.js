@@ -5732,3 +5732,13 @@ const estados = [
         ]
       }
     ]
+
+    function listaCidadesPorEstado(siglaEstado) {
+      for (const estado of estados) {
+        if(siglaEstado.toLowerCase() == estado.sigla.toLowerCase()) {
+          estado.cidades.forEach( c => console.log(c) );
+        }
+      }
+    }
+
+    listaCidadesPorEstado("Sc");

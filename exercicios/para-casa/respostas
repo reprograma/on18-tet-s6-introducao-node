@@ -1,0 +1,33 @@
+1) Não há um nível de maturidade associado exatamente ao CRUD. Os quatro níveis (0 a 3) podem ser associados
+O que os diferencia é o jeito de como eles tratam a informação que vem
+
+No nível 0, há apenas um endpoint, o qual trata os recursos, atrelado a um verbo HTTP.
+
+O nível 1 é definido pela identidade. Ou seja, objetos como pessoas, endereços, entre outros
+que são manipulados pelas API têm rotas diferentes.
+
+O nível dois, onde há o uso de diversos verbos HTTP para cada uma das operações do CRUD 
+bem como respostas com código HTTP adequadas para o sucesso ou falha da operação.
+
+O nível 3 além da separação trazida pelo nível 2, devolve um conjunto de ações possíveis associadas ao recurso
+com base no endpoint chamado. Basicamente, este é o princípio do HATEOAS, uma sigla em inglês cuja tradução seria
+hipermídia como o mecanismo do estado do aplicativo.
+
+2) Um método HTTP indica uma determina ação a ser realizada. Dentre os métodos HTTP existentes, alguns têm 
+uma correspondência com o CRUD e são bastante utilizados nas APIs rest:
+POST -> postar - criar um recurso - (C, CREATE)
+GET -> obter - leitura um recuso - (R, READ)
+PUT -> pôr - atualização de um recurso (U, Update)
+DELETE -> apagar - deleção de um recurso (D, Delete)
+
+3) O HATEOAS é uma sigla em inglês cuja tradução seria hipermídia como o mecanismo do estado do aplicativo.
+É uma restrição para facilitar com que programas conheçam as ações que podem tomar, sem necessitar de
+conhecimento prévio. Basicamente a resposta de uma ação em um dado recurso contém ligações, que são outras
+possíveis ações que podem ser tomadas e que têm alguma relação com o conteúdo retornado.
+
+4) Idempotência é a propriedade de chamar alguma função e ela não alterar o resultado. No contexto de uma API,
+a indempotência se dá quando o resultado de um endpoint não é alterado, indiferente de quantas vezes aquele
+endpoint é chamado
+
+5) O Put é uma atualização completa de um determinado recurso, enquanto que o patch é uma atualização parcial.
+O put é idempotente, enquanto o patch não.

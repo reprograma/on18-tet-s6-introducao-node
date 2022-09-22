@@ -149,3 +149,8 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+// aliceblue RGB: 240, 248, 25, 1
+for (const color in obj[0]) {
+    console.log(color + " RGB:" + obj[0][color].map(c => " " + c))
+}
