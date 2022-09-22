@@ -5732,3 +5732,14 @@ const estados = [
         ]
       }
     ]
+
+let siglaEstado = "Df"
+
+for (let i = 0; i < estados.length; i++){
+    let estadosTratados = estados[i];
+    let cidades = estadosTratados.cidades;
+    let nomeEstado = estadosTratados.nome;
+  if(siglaEstado.toLocaleUpperCase() == estadosTratados.sigla){
+    console.log(`ESTADO: ${nomeEstado} CIDADES: ${cidades}`)
+  }
+}
