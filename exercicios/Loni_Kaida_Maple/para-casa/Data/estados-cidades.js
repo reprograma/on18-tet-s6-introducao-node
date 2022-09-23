@@ -5732,3 +5732,21 @@ const estados = [
         ]
       }
     ]
+
+
+let getEstados = estados;
+
+let inputSigla = "MG";
+
+let mapStates = getEstados.map(produto => {
+  return{
+    sigla: produto.sigla,
+  }
+      
+});
+  
+for(let b=0; b<getEstados.length; b++){
+  if(getEstados[b].sigla==inputSigla)
+    console.table(getEstados[b].cidades);
+
+}

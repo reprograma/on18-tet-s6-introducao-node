@@ -149,3 +149,9 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let colorSelected;
+
+colorSelected=obj[0].aliceblue;
+
+console.log("Alice Blue  [RGBA] "+colorSelected);
