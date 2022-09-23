@@ -149,3 +149,23 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let novoObjeto  = obj[0]
+
+let valor = Object.values(novoObjeto);
+let chave = Object.keys(novoObjeto);
+
+for (let i = 0; i < chave.length; i++) {
+    console.log(`${chave[i]} RGB: ${valor[i]}`);
+}
+
+
+/*function searchRGB() {
+    let getInfoCores = Object.values(obj[0])
+    let getInfoPropriedades = Object.keys(obj[0])
+    for (let cor = 0; cor < getInfoPropriedades.length; cor++) {
+        console.log(`${getInfoPropriedades[cor]} RGB: ${getInfoCores[cor]}`)
+    }
+}
+searchRGB();*/
+Footer
