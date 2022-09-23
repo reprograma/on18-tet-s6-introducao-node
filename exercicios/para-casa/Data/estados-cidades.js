@@ -5732,3 +5732,35 @@ const estados = [
         ]
       }
     ]
+
+    for(let estado = 0; estado < estados.length; estado++){
+      let listaCidades = estados.cidades
+      let siglasEstados = estados.sigla
+      
+      console.log(listaCidades)
+      console.log(siglasEstados)
+    }
+     
+
+      
+      
+        
+
+
+    
+    //o que tenho? tenho uma lista de objetos com cada estado e cada objeto tem uma lista de cidades.
+    //o que eu preciso? retornar a lista de cidades cada vez que eu inserir a sigla do estado.
+    // o que eu preciso pra que isso funcione?
+      // preciso percorrer o array de objetos. Em cada objeto preciso acessar a lista de cidades. Preciso vincular a sigla às cidades.
+    // Preciso executar algo?
+      //Sim, pra cada sigla que eu chamar, o console vai ter que me mostrar a lista de cidades referente a esse estado.
+      
+    // Então:
+    //Percorrer lista => for, forEach
+    //Percorrer objeto => .propriedade
+    //retornar lista => função (forEach executa função também)
+
+    
+
+
+    
