@@ -5732,3 +5732,31 @@ const estados = [
         ]
       }
     ]
+
+    //SUA RESPOSTA AQUI
+
+    // Do arquivo estados-cidade dado uma sigla retorne no terminal o lista de cidades
+
+    // resposta:
+
+  function searchCidades(lista, uf) {
+    for (let i = 0; i < lista.length; i++) {
+      let siglaPorEstado = lista[i];
+      if (siglaPorEstado.sigla.toUpperCase() === uf.toUpperCase()) {
+        let searchCidades = siglaPorEstado.cidades.join('\n');
+        console.log(`Segue a lista de cidades do(a) ${uf}:`);
+        console.table(`${searchCidades}`);
+      }
+    }
+  }
+  
+  searchCidades(estados, "se");
+
+  //Segunda resolução : retornando o objeto inteiro da sigla
+
+// function listaDeCidades(lista, uf) {
+// let searchCidades = lista.filter((estado) => estado.sigla.toUpperCase() === uf.toUpperCase()); {
+//   console.log(searchCidades)
+// }
+// }
+// listaDeCidades(estados, "SE")
