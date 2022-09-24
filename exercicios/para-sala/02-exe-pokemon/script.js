@@ -1,4 +1,4 @@
-const data = [
+const data  = [
 {
     "name": "Bulbasaur",
     "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
@@ -31,5 +31,21 @@ const data = [
 }]
 
 // COMEÇA O EXERCÍCIO
+// Primeira coisa que faremos, percorrer os obejtos da array principal "data"
+// Pra percorrer objeto vc pode usar pontos ex.: pokemom.name
 
+for(let i=0; i < data.length; i++){
+    let pokemon = data[i]
+    console.log(pokemon.name)
+    console.log(pokemon.description)
 
+// Agora vamos percorrer a Array (types) que tem dentro do objeto (Pokemom)
+// Pra percorrer Array não pode usar pontos e sim [índice] 
+// nesse caso não é necessário criar uma váriavel 
+
+    let tipos = pokemon.types
+
+    for(let j=0; j< tipos.length; j++){
+        console.log(tipos[j])
+    }
+}

@@ -149,3 +149,15 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+// Retornar no terminal o RGB > "whitesmoke RGB: 240, 248, 255, 1" <
+
+let retornoDeObjeto = obj[0]
+let chave = Object.keys(retornoDeObjeto)
+let valor = Object.values(retornoDeObjeto)
+
+
+for(let i = 0; i < chave.length; i++){
+    console.log(`${chave[i]} RGB: ${valor[i]}`)
+    break
+}
