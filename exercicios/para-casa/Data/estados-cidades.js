@@ -5732,3 +5732,24 @@ const estados = [
         ]
       }
     ]
+
+    //SUA RESPOSTA AQUI
+  
+  function DigiteASigla(entrada,est) { 
+   
+    
+      for(let i = 0; i < est.length; i++ ){
+      
+       if ( est[i].sigla === entrada){
+          console.log("Cidades de :" , entrada)
+          for (j=0; j< est[i].cidades.length; j++){
+         
+            console.log(est[i].cidades[j])
+          }
+       }
+       
+      }
+   
+    
+  }
+  DigiteASigla("RJ",estados)
