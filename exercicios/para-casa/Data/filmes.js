@@ -82,6 +82,6 @@ const obj = [
 for (let filme of obj) {
     console.log(`Title: ${filme.Title}`);
     console.log(`Year: ${filme.Year}`);
-    console.log(`${filme.Genre.split(' ').join('\n')} `)
+    console.log(`${filme.Genre.split(', ').join('\n')} `)
     console.log('------------------------------------------------')
 }
