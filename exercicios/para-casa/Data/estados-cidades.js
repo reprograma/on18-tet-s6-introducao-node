@@ -5746,4 +5746,4 @@ const estados = [
     }
   }
   
-  buscarCidade("ma")
+  buscarCidade("Se")

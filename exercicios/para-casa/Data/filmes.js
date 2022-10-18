@@ -79,7 +79,7 @@ const obj = [
 for(i = 0; i < obj.length; i++){
     let filmes = obj[i]
 
-    let movies = filmes.Genre.split(", ")
+    let movies = filmes.Genre.split(",")
 
     console.log('================================')
     console.log("Título do filme: ", filmes.Title)
