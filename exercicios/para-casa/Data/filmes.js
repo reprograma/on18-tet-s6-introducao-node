@@ -76,4 +76,17 @@ const obj = [
     }
 ]
 
-//SUA RESPOSTA AQUI
+for(i = 0; i < obj.length; i++){
+    let filmes = obj[i]
+
+    let movies = filmes.Genre.split(",")
+
+    console.log('================================')
+    console.log("Título do filme: ", filmes.Title)
+    console.log("Ano: ",filmes.Year)
+    console.log('Gêneros:')
+
+    for(let lista in movies) {
+    console.log(`${movies[lista]}`)
+    }
+}
