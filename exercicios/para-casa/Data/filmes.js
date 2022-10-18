@@ -76,4 +76,12 @@ const obj = [
     }
 ]
 
-//SUA RESPOSTA AQUI
+let mostreNoConsole = obj.map((filme) => {
+
+    let titulo = filme.Title
+    let ano = filme.Year 
+    let genero = filme.Genre
+
+    return console.log(titulo, ano, genero)
+
+})
