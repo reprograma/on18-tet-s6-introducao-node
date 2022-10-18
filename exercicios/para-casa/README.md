@@ -10,8 +10,8 @@ Pesquise sobre os niveis de maturidade de Richardsson e responda:
 5) Qual a diferença entre os métodos PUT e PATCH?
 
 6) Do arquivo filmes.js retorne no terminal o Titulo, Ano e Genero. (desafio: apresente cada Genero em linhas separadas)
-7) Do arquivo colors-rgb retorne no terminal o RGB como no exemplo: "aliceblue RGB: 240, 248, 255, 1"
-8) Do arquivo estados-cidade dado uma sigla retorne no terminal o lista de cidades
+7) Do arquivo colors-rgb retorne no terminal o RGB como no exemplo: "aliceblue RGB: 240, 248, 255, 1" // precisa retirar as cores de dentro da array
+8) Do arquivo estados-cidade dado uma sigla retorne no terminal o lista de cidades// Fazer uma função que receba uma sgla e retorne uma lista de cidades.
 
 As respostas devem ser realizadas no seu proprio repositório, dentro da pasta para-o-lar. As respostas das questões dissertativas devem ser colocadas no arquivo **RESPOSTAS_SEU_NOME.md** 
 ---

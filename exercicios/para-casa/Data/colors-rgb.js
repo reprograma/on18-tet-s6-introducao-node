@@ -149,3 +149,22 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let retorneNoConsole = obj.map((lista) => {
+    let obj2 = []
+    let cor = Object.keys(lista)
+    let valor = Object.values(lista)
+
+    for(let item = 0; item < cor.length; item++) {
+        let pegueACor = cor[item] 
+        let pegueValores = valor[item]
+        let adicionaNaNovaArray = obj2.push(`${pegueACor} RGB: ` + `${pegueValores}`)
+
+    }
+
+    return obj2
+})
+
+console.log(retorneNoConsole)
+
+// Prof. Eu fiz o exercício usando o MAP e o FOR. Achei muito legal esse exercício... Acho que com o tempo eu estou conseguindo ter mais ciencia do que eu estou fazendo. :)
